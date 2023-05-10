@@ -1,6 +1,13 @@
 # Node.js Project with WebSocket and Vite Vanilla
 
-This project is a Node.js application that uses the "ws" library to implement a WebSocket server, as well as the Fast Vanilla framework to serve and build a client application.
+This project is a Node.js application that uses the "ws" library to implement a WebSocket server, as well as the Vite framework to build a client applicatio
+
+## Project Description
+
+This project is a simple WebSocket application that allows clients to connect to the WebSocket server and send messages to other connected clients. The WebSocket server uses the "ws" library to handle WebSocket connections and incoming messages.
+
+The client application is a vanilla JavaScript application that connects to the WebSocket server and allows the user to send messages. The client application uses the Vite Vanilla framework to serve and build the application.
+
 
 ## **Prerequisite**
 
@@ -24,7 +31,7 @@ To start the WebSocket server, run the following command:
 npm run server
 ```
 
-The server will start on port `3050` by default.
+The server will start on port `3050`.
 
 ### Client
 
@@ -34,7 +41,7 @@ To start the client application in development mode, run the following command:
 npm run dev-client
 ```
 
-This command launches the Vite Vanilla development server, which serves the client application on port `5173` by default. You can access the application by opening a web browser and visiting the address `http://localhost:5173/`.
+This command launches the Vite development server, which serves the client application on port `5173`. You can access the application by opening a web browser and visiting the address `http://localhost:5173/`.
 
 To build the client application for production, run the following command:
 
@@ -44,11 +51,6 @@ npm run build-client
 
 This command builds the client application in the `dist` directory.
 
-## Project Description
-
-This project is a simple WebSocket application that allows clients to connect to the WebSocket server and send messages to other connected clients. The WebSocket server uses the "ws" library to handle WebSocket connections and incoming messages.
-
-The client application is a vanilla JavaScript application that connects to the WebSocket server and allows the user to send messages to other connected clients. The client application uses the Vite Vanilla framework to serve and build the application.
 
 ## Project Structure
 
